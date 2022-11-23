@@ -5,6 +5,7 @@ from testapp.models import Student
 from testapp.serializers import studentserializer
 from django.http import HttpResponse
 import io
+import json
 from rest_framework.renderers import JSONRenderer
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
